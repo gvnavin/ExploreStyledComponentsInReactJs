@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import './style.css';
+import CardData from './CardData';
+import Card from './Card'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//Helper Method
+export function renderPlatformUI(PlatformChild) {
+  return (childProps) => {
+    return (<PlatformChild {...childProps} />);
+  }
+}
+
+
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: 'React'
+    };
+  }
+
+  render() {
+    return (
+        <div>
+          <CardData render={renderPlatformUI(Card)} />
+        </div>
+    );
+  }
 }
 
 export default App;

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80173568-a518-4a15-a16f-bcf1627efb59" name="Default Changelist" comment="" />
+    <list default="true" id="80173568-a518-4a15-a16f-bcf1627efb59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CardData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/agnosticStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stylesContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,15 +21,34 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bAhpDxb0QhGiVtRkm4igm3RpAO" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="ServiceViewManager">
@@ -32,5 +62,26 @@
         </serviceView>
       </list>
     </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1373" height="363" key="GridCell.Tab.0.bottom" timestamp="1588742451775">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="363" key="GridCell.Tab.0.bottom/25.23.1415.877@25.23.1415.877" timestamp="1588742451775" />
+    <state width="1373" height="363" key="GridCell.Tab.0.center" timestamp="1588742451774">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="363" key="GridCell.Tab.0.center/25.23.1415.877@25.23.1415.877" timestamp="1588742451774" />
+    <state width="1373" height="363" key="GridCell.Tab.0.left" timestamp="1588742451773">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="363" key="GridCell.Tab.0.left/25.23.1415.877@25.23.1415.877" timestamp="1588742451773" />
+    <state width="1373" height="363" key="GridCell.Tab.0.right" timestamp="1588742451775">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="363" key="GridCell.Tab.0.right/25.23.1415.877@25.23.1415.877" timestamp="1588742451775" />
   </component>
 </project>
